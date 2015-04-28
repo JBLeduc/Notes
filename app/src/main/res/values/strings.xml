@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Notes</string>
+    <string name="title_activity_main">Notes</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_music">Musique</string>
+    <string name="title_activity_film">Films</string>
+    <string name="title_activity_book">Livres</string>
+    <string name="title_activity_reminder">À penser</string>
+    <string name="title_activity_music_note">Nouvelle musique</string>
+    <string name="title_activity_film_note">Nouveau film</string>
+    <string name="title_activity_book_note">Nouveau livre</string>
+    <string name="title_activity_reminder_note">Nouvelle note</string>
+</resources>

@@ -1,0 +1,191 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.notes.notes.MainActivity">
+
+    <!-- A CardView that contains a TextView -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+
+
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view_reminder"
+        android:layout_gravity="center"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        card_view:cardCornerRadius="2dp"
+        android:layout_marginBottom="8dp"
+        card_view:cardBackgroundColor="@color/indigo500"
+        card_view:cardElevation="2dp"
+        >
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="?android:attr/selectableItemBackground">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="À penser"
+            android:id="@+id/textViewReminder"
+            android:layout_gravity="center"
+            android:textSize="30sp"
+            android:textColor="@color/white"/>
+
+        </FrameLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view_music"
+        android:layout_gravity="center"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        card_view:cardCornerRadius="2dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        card_view:cardBackgroundColor="@color/orange500"
+        card_view:cardElevation="2dp">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:background="?android:attr/selectableItemBackground">
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3"
+                android:background="@drawable/music_3"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:text="Musique"
+                android:id="@+id/textViewMusic"
+                android:layout_gravity="center"
+                android:textSize="30sp"
+                android:textColor="@color/white"
+                android:layout_weight="1"
+                android:gravity="center|center_horizontal" />
+
+        </LinearLayout>
+
+
+
+    </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view_films"
+        android:layout_gravity="center"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        card_view:cardCornerRadius="2dp"
+        android:layout_marginBottom="8dp"
+        card_view:cardBackgroundColor="@color/red500"
+        card_view:cardElevation="2dp">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:background="?android:attr/selectableItemBackground">
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3"
+                android:background="@drawable/film_red_2"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:text="Films"
+                android:id="@+id/textViewFilms"
+                android:layout_gravity="center"
+                android:textSize="30sp"
+                android:textColor="@color/white"
+                android:layout_weight="1"
+                android:gravity="center|center_horizontal" />
+
+            </LinearLayout>
+
+
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view_books"
+        android:layout_gravity="center"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        card_view:cardCornerRadius="2dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:focusable="false"
+        card_view:cardBackgroundColor="@color/lightBlue500"
+        card_view:cardElevation="2dp">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:background="?android:attr/selectableItemBackground">
+
+
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3"
+                android:background="@drawable/books_2"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:text="Livres"
+                android:id="@+id/textViewLivres"
+                android:layout_gravity="center"
+                android:textSize="30sp"
+                android:textColor="@color/white"
+                android:layout_weight="1"
+                android:gravity="center|center_horizontal" />
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

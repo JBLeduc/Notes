@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="grey300">#E0E0E0</color>
+    <color name="grey600">#757575</color>
+    
+    <color name="primaryColor">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="accentColor">#FF9800</color>
+
+    <color name="indigo700">#303F9F</color>
+    <color name="indigo500">#3F51B5</color>
+    <color name="indigo400">#5C6BC0</color>
+    <color name="indigo300">#7986CB</color>
+    <color name="indigo200">#9FA8DA</color>
+    <color name="indigo100">#C5CAE9</color>
+
+
+    <color name="blue400">#42A5F5</color>
+    <color name="blue500">#2196F3</color>
+    <color name="blue700">#1976D2</color>
+
+
+    <color name="lightBlue400">#29B6F6</color>
+    <color name="lightBlue500">#03A9F4</color>
+    <color name="lightBlue700">#0288D1</color>
+
+    <color name="cyan400">#26C6DA</color>
+    <color name="cyan500">#00BCD4</color>
+    <color name="cyan700">#0097A7</color>
+
+    <color name="orange400">#FFA726</color>
+    <color name="orange500">#FF9800</color>
+    <color name="orange700">#F57C00</color>
+
+    <color name="red400">#EF5350</color>
+    <color name="red500">#F44336</color>
+    <color name="red700">#D32F2F</color>
+
+
+
+
+
+    
+</resources>

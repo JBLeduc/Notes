@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="FilmTheme" parent="AppTheme.BaseFilm">
+        <!-- Customize your theme here. -->
+        <item name="android:colorPrimary">@color/red500</item>
+        <item name="android:colorPrimaryDark">@color/red700</item>
+        <item name="android:colorAccent">@color/indigo700</item>
+        <item name="android:activatedBackgroundIndicator">@drawable/list_activated_background</item>
+        <item name="android:windowBackground">@color/white</item>
+
+
+
+
+    </style>
+</resources>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.notes.notes" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher2"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Music"
+            android:label="@string/title_activity_music"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/MusicTheme" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.notes.notes.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Film"
+            android:label="@string/title_activity_film"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/FilmTheme" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.notes.notes.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Book"
+            android:label="@string/title_activity_book"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/BookTheme" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.notes.notes.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Reminder"
+            android:label="@string/title_activity_reminder"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.notes.notes.MainActivity" />
+        </activity>
+        <activity
+            android:name=".newNote.MusicNote"
+            android:label="@string/title_activity_music_note"
+            android:parentActivityName=".Music"
+            android:theme="@style/MusicTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.notes.notes.Music" />
+        </activity>
+        <activity
+            android:name=".newNote.FilmNote"
+            android:label="@string/title_activity_film_note"
+            android:parentActivityName=".Film"
+            android:theme="@style/FilmTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.notes.notes.Film" />
+        </activity>
+        <activity
+            android:name=".newNote.BookNote"
+            android:label="@string/title_activity_book_note"
+            android:parentActivityName=".Book"
+            android:theme="@style/BookTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.notes.notes.Book" />
+        </activity>
+        <activity
+            android:name=".newNote.ReminderNote"
+            android:label="@string/title_activity_reminder_note"
+            android:parentActivityName=".Reminder" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.notes.notes.Reminder" />
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="BookTheme" parent="AppTheme.BaseBook">
+        <!-- Customize your theme here. -->
+        <item name="android:colorPrimary">@color/lightBlue500</item>
+        <item name="android:colorPrimaryDark">@color/lightBlue700</item>
+        <item name="android:colorAccent">@color/red500</item>
+        <item name="android:activatedBackgroundIndicator">@drawable/list_activated_background</item>
+        <item name="android:windowBackground">@color/white</item>
+
+
+    </style>
+
+</resources>

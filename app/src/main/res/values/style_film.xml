@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="FilmTheme" parent="AppTheme.BaseFilm">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="AppTheme.BaseFilm" parent="Theme.AppCompat.Light.DarkActionBar" >
+        <item name="colorPrimary">@color/red500</item>
+        <item name="colorPrimaryDark">@color/red700</item>
+        <item name="colorAccent">@color/indigo700</item>
+        <item name="android:activatedBackgroundIndicator">@drawable/list_activated_background</item>
+        <item name="android:windowBackground">@color/white</item>
+
+
+
+    </style>
+</resources>
